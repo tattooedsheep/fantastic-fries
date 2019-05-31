@@ -1,0 +1,28 @@
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    height: 200px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    
+
+}
+.company-details-wrapper > .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.company-details-wrapper > .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 30px;
+    font-size: 1.5rem;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper i{
+    color: #cea135;
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+.skewed-header {
+    position: relative;
+}
+.skewed-header > .header-bg {
+    position: absolute;
+    top: -22px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+.skewed-header > .skewed-header-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.skewed-header > .skewed-header-wrapper> .skewed-header-content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content> .heading-wrapper {
+    background-color: #cea135;
+    color: #11112b;
+    border-radius: 0px 0px 5px 5px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+.page-container> .content-wrapper {
+    width: 1000px;
+    padding-top: 400px;
+}
+.page-container> .content-wrapper > #chef {
+    width: 350px;
+    margin: 25px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    float: left;
+    border: 1px solid #cea135;
+}
+.page-container> .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.anchor-link {
+    text-decoration: none;
+}
+.anchor-link:focus {
+    outline: none;
+}
+
+.anchor-link h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+}
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
